@@ -61,6 +61,7 @@ def split_dataset(img_dir, xml_dir, output_base_dir, train_ratio=0.7, val_ratio=
     print(f"Training set: {len(train_files)} images")
     print(f"Validation set: {len(val_files)} images")
     print(f"Test set: {len(test_files)} images")
+    #  should have 350, 75 and 75
 
     return {
         'train_size': len(train_files),
@@ -77,3 +78,4 @@ if __name__ == "__main__":
     output_dir = "lego_dataset"  # Where to save the split datasets
 
     stats = split_dataset(source_img_dir, source_xml_dir, output_dir)
+
