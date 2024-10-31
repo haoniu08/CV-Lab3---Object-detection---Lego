@@ -14,7 +14,7 @@ val_img_dir = "lego_dataset/val/images"
 val_ann_dir = "lego_dataset/val/annotations"
 test_img_dir = "lego_dataset/test/images"
 test_ann_dir = "lego_dataset/test/annotations"
-
+# 22
 # Hyperparameters
 num_epochs = 5
 batch_size = 4
