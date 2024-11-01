@@ -28,6 +28,9 @@ python train.py --data lego.yaml --weights yolov5s.pt --epochs 50 --img-size 640
 ```
 **Run the command under the yolov5 folder**
 
+Model summary: 157 layers, 7012822 parameters, 0 gradients, 15.8 GFLOPs
+                 Class     Images  Instances          P          R      mAP50   mAP50-95: 100%|██████████| 3/3 [00:18<00:00,  6.26s/it]
+                   all         75        252      0.949      0.966      0.989      0.895
 Results of training the model are saved to /yolov5/runs/train/exp3
 
 # To view the mAP results after training
